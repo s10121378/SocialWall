@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	     
+		  <item
+	    android:id="@+id/facebook"
+	    android:title="Facebook"
+	    android:icon="@drawable/ic_facebook_box"
+	    android:orderInCategory="1"
+	    android:showAsAction="always"
+	     />  
+		
+		<item
+	    android:id="@+id/instagram"
+	    android:title="Instagram"
+	    android:icon="@drawable/ic_instagram"
+	    android:orderInCategory="1"
+	    android:showAsAction="always"
+	     />    
+	     <item
+	    android:id="@+id/twitter"
+	    android:title="Twitter"
+	    android:icon="@drawable/ic_twitter"
+	    android:orderInCategory="3"
+	    android:showAsAction="never"
+	     />    
+	      <item
+	    android:id="@+id/tumblr"
+	    android:title="Tumblr"
+	    android:icon="@drawable/ic_tumblr"
+	    android:orderInCategory="3"
+	    android:showAsAction="never"
+	     />   
+
+</menu>
